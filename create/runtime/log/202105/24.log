@@ -1,0 +1,15 @@
+---------------------------------------------------------------
+[ 2021-05-24T10:13:00+08:00 ] 127.0.0.1 GET create.com/admin/mw_connection/edit/ids/2?dialog=1
+[ error ] [0]类的属性不存在:app\admin\model\MwConnection->port
+---------------------------------------------------------------
+[ 2021-05-24T10:13:03+08:00 ] 127.0.0.1 GET create.com/admin/mw_connection/edit/ids/1?dialog=1
+[ error ] [0]类的属性不存在:app\admin\model\MwConnection->port
+---------------------------------------------------------------
+[ 2021-05-24T10:27:24+08:00 ] 127.0.0.1 GET create.com/admin/mw_connection/edit/ids/2?dialog=1
+[ error ] [0]类的属性不存在:app\admin\model\MwConnection->port
+---------------------------------------------------------------
+[ 2021-05-24T11:51:04+08:00 ] 127.0.0.1 GET create.com/admin/mw_connection/edit/ids/2?dialog=1
+[ error ] [0]类的属性不存在:app\admin\model\MwConnection->port
+---------------------------------------------------------------
+[ 2021-05-24T14:06:07+08:00 ] 127.0.0.1 GET create.com/admin/mw_connection/edit/ids/2?dialog=1
+[ error ] [0]类的属性不存在:app\admin\model\MwConnection->port

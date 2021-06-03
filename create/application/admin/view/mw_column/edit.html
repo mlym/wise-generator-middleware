@@ -1,0 +1,100 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Module_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-module_id" data-rule="required" data-source="mw_module/index" class="form-control selectpage" name="row[module_id]" type="text" value="{$row.module_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" class="form-control" name="row[name]" type="text" value="{$row.name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Description')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-description" class="form-control" name="row[description]" type="text" value="{$row.description|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Input_type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-input_type" class="form-control" name="row[input_type]" type="text" value="{$row.input_type|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Output_type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-output_type" class="form-control" name="row[output_type]" type="text" value="{$row.output_type|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Is_quick_search')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-is_quick_search" class="form-control" name="row[is_quick_search]" type="number" value="{$row.is_quick_search|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Is_multiple')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-is_multiple" class="form-control" name="row[is_multiple]" type="number" value="{$row.is_multiple|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Prompt')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-prompt" class="form-control" name="row[prompt]" type="text" value="{$row.prompt|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Placeholder')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-placeholder" class="form-control" name="row[placeholder]" type="text" value="{$row.placeholder|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Link')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-link" class="form-control " rows="5" name="row[link]" cols="50">{$row.link|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Search_rule')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-search_rule" class="form-control " rows="5" name="row[search_rule]" cols="50">{$row.search_rule|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Search_static')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-search_static" class="form-control selectpicker" name="row[search_static]">
+                {foreach name="searchStaticList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.search_static"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Option')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-option" class="form-control " rows="5" name="row[option]" cols="50">{$row.option|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Create_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-create_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="text" value="{:$row.create_time?datetime($row.create_time):''}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

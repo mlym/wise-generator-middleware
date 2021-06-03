@@ -1,0 +1,87 @@
+[ 2021-05-16T20:46:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000071s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2021-05-16T20:46:52+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2021-05-16T20:46:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000842s ]
+info
+[ 2021-05-16T20:46:52+08:00 ][ info ] [ DB ] INIT mysql
+info
+[ 2021-05-16T20:46:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000071s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2021-05-16T20:46:52+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2021-05-16T20:46:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002290s ]
+info
+[ 2021-05-16T20:46:52+08:00 ][ info ] [ DB ] INIT mysql
+info
+[ 2021-05-16T20:46:52+08:00 ][ info ] [ LANG ] /Users/ryan/Desktop/src/framework/fastadmin/1.2.0.20210401_full/application/admin/lang/zh-cn.php
+info
+[ 2021-05-16T20:47:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000069s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2021-05-16T20:47:59+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2021-05-16T20:47:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002271s ]
+info
+[ 2021-05-16T20:47:59+08:00 ][ info ] [ DB ] INIT mysql
+info
+[ 2021-05-16T20:47:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000071s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2021-05-16T20:47:59+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2021-05-16T20:47:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002264s ]
+info
+[ 2021-05-16T20:47:59+08:00 ][ info ] [ DB ] INIT mysql
+info
+[ 2021-05-16T20:47:59+08:00 ][ info ] [ LANG ] /Users/ryan/Desktop/src/framework/fastadmin/1.2.0.20210401_full/application/admin/lang/zh-cn.php
+info
+[ 2021-05-16T20:48:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000070s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2021-05-16T20:48:41+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2021-05-16T20:48:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002223s ]
+info
+[ 2021-05-16T20:48:41+08:00 ][ info ] [ DB ] INIT mysql
+info
+[ 2021-05-16T20:50:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000067s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2021-05-16T20:50:04+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2021-05-16T20:50:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000746s ]
+info
+[ 2021-05-16T20:50:04+08:00 ][ info ] [ DB ] INIT mysql
+info
+[ 2021-05-16T20:50:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000072s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2021-05-16T20:50:04+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2021-05-16T20:50:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002311s ]
+info
+[ 2021-05-16T20:50:04+08:00 ][ info ] [ DB ] INIT mysql
+info
+[ 2021-05-16T20:50:04+08:00 ][ info ] [ LANG ] /Users/ryan/Desktop/src/framework/fastadmin/1.2.0.20210401_full/application/admin/lang/zh-cn.php
+info
+[ 2021-05-16T20:50:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000067s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2021-05-16T20:50:08+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2021-05-16T20:50:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002329s ]
+info
+[ 2021-05-16T20:50:08+08:00 ][ info ] [ DB ] INIT mysql
+info
+[ 2021-05-16T20:50:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000069s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2021-05-16T20:50:17+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2021-05-16T20:50:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002161s ]
+info
+[ 2021-05-16T20:50:17+08:00 ][ info ] [ DB ] INIT mysql
+info

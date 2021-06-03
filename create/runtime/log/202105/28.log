@@ -1,0 +1,2642 @@
+---------------------------------------------------------------
+[ 2021-05-28T14:25:47+08:00 ] 127.0.0.1 GET create.com/admin/mw_module/edit/ids/1?dialog=1
+[运行时间：1.242800s] [吞吐率：0.80req/s] [内存消耗：4,409.47kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000107s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.018764s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.015850s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_module',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.020167s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_module.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ D:\phpstudy_pro\WWW\code\create\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\view\mw_module\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000348s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005596s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.034452s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001098s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000586s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:25:48+08:00 ] 127.0.0.1 GET create.com/assets/css/skins/skin-black-green.css.map
+[运行时间：0.098069s] [吞吐率：10.20req/s] [内存消耗：2,178.35kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000138s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003075s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002653s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:25:48+08:00 ] 127.0.0.1 GET create.com/assets/css/bootstrap.css.map
+[运行时间：0.118608s] [吞吐率：8.43req/s] [内存消耗：2,178.58kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000151s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002588s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001015s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:25:48+08:00 ] 127.0.0.1 GET create.com/assets/css/fastadmin.css.map
+[运行时间：0.103023s] [吞吐率：9.71req/s] [内存消耗：2,178.58kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000332s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003251s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000708s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:25:48+08:00 ] 127.0.0.1 GET create.com/assets/css/backend.css.map
+[运行时间：0.134403s] [吞吐率：7.44req/s] [内存消耗：2,178.52kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000140s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003088s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000964s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:25:48+08:00 ] 127.0.0.1 GET create.com/admin/ajax/lang?callback=define&controllername=mw_module&lang=zh-cn&v=1622183147&v=1622183147
+[运行时间：0.155479s] [吞吐率：6.43req/s] [内存消耗：3,553.22kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000069s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002598s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003686s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'mw_module',
+  'lang' => 'zh-cn',
+  'v' => '1622183147',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.017926s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_module.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001155s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:25:49+08:00 ] 127.0.0.1 POST create.com/admin/mw_project/index
+[运行时间：0.235340s] [吞吐率：4.25req/s] [内存消耗：4,419.34kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002158s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000437s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_project',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://create.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '154',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '1',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '1',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001712s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_project.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpstudy_pro\WWW\code\create\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.011844s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025044s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001008s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_project` [ RunTime:0.005821s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_mw_project` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.019118s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_project` WHERE  `id` IN (1) ORDER BY FIELD(`id`, '1') LIMIT 0,999999 [ RunTime:0.028818s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:25:49+08:00 ] 127.0.0.1 POST create.com/admin/mw_connection/index
+[运行时间：0.277872s] [吞吐率：3.60req/s] [内存消耗：4,426.52kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001904s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002002s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_connection',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://create.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '154',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '1',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '1',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002836s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_connection.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpstudy_pro\WWW\code\create\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001113s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001319s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_mw_connection` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_connection` WHERE  `id` IN (1) ORDER BY FIELD(`id`, '1') LIMIT 0,999999 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:26:00+08:00 ] 127.0.0.1 POST create.com/admin/mw_module/edit/ids/1?dialog=1
+[运行时间：0.521284s] [吞吐率：1.92req/s] [内存消耗：4,413.60kb] [文件加载：145]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002057s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001325s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_module',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://create.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'row' => 
+  array (
+    'project_id' => '1',
+    'connection_id' => '1',
+    'name' => 'room',
+    'table_name' => 'rs_room',
+    'api' => '{"path":"/admin/room/list"}',
+    'create_time' => '2021-05-21 19:43:33',
+  ),
+  'ids' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002221s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_module.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ D:\phpstudy_pro\WWW\code\create\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.119719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001451s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001570s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001307s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.003315s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] UPDATE `fa_mw_module`  SET `api`='{\"path\":\"/admin/room/list\"}'  WHERE  `id` = 1 [ RunTime:0.098114s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.019781s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('主模块 / 编辑' , '{\"dialog\":\"1\",\"row\":{\"project_id\":\"1\",\"connection_id\":\"1\",\"name\":\"room\",\"table_name\":\"rs_room\",\"api\":\"{&quot;path&quot;:&quot;\\/admin\\/room\\/list&quot;}\",\"create_time\":\"2021-05-21 19:43:33\"},\"ids\":\"1\"}' , '/admin/mw_module/edit/ids/1?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36' , '127.0.0.1' , 1622183160) [ RunTime:0.066079s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:26:00+08:00 ] 127.0.0.1 GET create.com/admin/mw_module/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1622101226901
+[运行时间：0.158902s] [吞吐率：6.29req/s] [内存消耗：4,663.30kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001271s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000265s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_module',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1622101226901',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005399s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_module.php
+[ info ] [ RUN ] app\admin\controller\MwModule->index[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\MwModule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000281s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001265s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_project` [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_mw_module` `mw_module` LEFT JOIN `fa_mw_project` `mwproject` ON `mw_module`.`project_id`=`mwproject`.`id` LEFT JOIN `fa_mw_connection` `mwconnection` ON `mw_module`.`connection_id`=`mwconnection`.`id` LIMIT 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT `mw_module`.`id`,`mw_module`.`project_id`,`mw_module`.`connection_id`,`mw_module`.`name`,`mw_module`.`table_name`,`mw_module`.`api`,`mw_module`.`create_time`,mwproject.id AS mwproject__id,mwproject.name AS mwproject__name,mwproject.code AS mwproject__code,mwproject.create_time AS mwproject__create_time,mwconnection.id AS mwconnection__id,mwconnection.name AS mwconnection__name,mwconnection.type AS mwconnection__type,mwconnection.host AS mwconnection__host,mwconnection.port AS mwconnection__port,mwconnection.user AS mwconnection__user,mwconnection.password AS mwconnection__password,mwconnection.database AS mwconnection__database,mwconnection.create_time AS mwconnection__create_time FROM `fa_mw_module` `mw_module` LEFT JOIN `fa_mw_project` `mwproject` ON `mw_module`.`project_id`=`mwproject`.`id` LEFT JOIN `fa_mw_connection` `mwconnection` ON `mw_module`.`connection_id`=`mwconnection`.`id` ORDER BY `mw_module`.`id` DESC LIMIT 0,10 [ RunTime:0.001156s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:26:23+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.221751s] [吞吐率：4.51req/s] [内存消耗：4,331.21kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001744s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000658s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => '972e8f8c-cf28-450d-ab3f-a5a47b9a3719',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003004s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001362s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:27:11+08:00 ] 127.0.0.1 GET create.com/admin/mw_column/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1622101512578
+[运行时间：0.161345s] [吞吐率：6.20req/s] [内存消耗：4,545.20kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001192s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000281s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_column',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1622101512578',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002304s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_column.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpstudy_pro\WWW\code\create\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000202s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022699s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.015572s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001697s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.001831s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_mw_column` LIMIT 1 [ RunTime:0.001078s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:27:14+08:00 ] 127.0.0.1 GET create.com/admin/mw_column/edit/ids/1?dialog=1
+[运行时间：0.151507s] [吞吐率：6.60req/s] [内存消耗：4,408.54kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000070s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002674s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000404s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_column',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002140s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_column.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ D:\phpstudy_pro\WWW\code\create\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\view\mw_column\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'searchStaticList',
+  6 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000561s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001409s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011109s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002400s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001712s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:27:14+08:00 ] 127.0.0.1 GET create.com/assets/css/skins/skin-black-green.css.map
+[运行时间：0.071009s] [吞吐率：14.08req/s] [内存消耗：2,178.35kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002168s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000395s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:27:14+08:00 ] 127.0.0.1 GET create.com/assets/css/bootstrap.css.map
+[运行时间：0.074428s] [吞吐率：13.44req/s] [内存消耗：2,178.58kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004563s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000359s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:27:14+08:00 ] 127.0.0.1 GET create.com/assets/css/backend.css.map
+[运行时间：0.085248s] [吞吐率：11.73req/s] [内存消耗：2,178.52kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002516s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000301s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:27:14+08:00 ] 127.0.0.1 GET create.com/assets/css/fastadmin.css.map
+[运行时间：0.088594s] [吞吐率：11.29req/s] [内存消耗：2,178.58kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002168s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000270s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:27:15+08:00 ] 127.0.0.1 GET create.com/admin/ajax/lang?callback=define&controllername=mw_column&lang=zh-cn&v=1622183234&v=1622183234
+[运行时间：0.059137s] [吞吐率：16.91req/s] [内存消耗：3,552.94kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001381s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000369s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'mw_column',
+  'lang' => 'zh-cn',
+  'v' => '1622183234',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002503s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_column.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000166s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:27:15+08:00 ] 127.0.0.1 POST create.com/admin/mw_module/index
+[运行时间：0.084990s] [吞吐率：11.77req/s] [内存消耗：4,430.05kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002431s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000265s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_module',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://create.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '154',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '1',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '1',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001232s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_module.php
+[ info ] [ RUN ] app\admin\controller\MwModule->index[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\MwModule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000561s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018325s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001977s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.002031s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_mw_module` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` WHERE  `id` IN (1) ORDER BY FIELD(`id`, '1') LIMIT 0,999999 [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:30:31+08:00 ] 127.0.0.1 GET create.com/admin/mw_column/edit/ids/1?dialog=1
+[运行时间：0.095243s] [吞吐率：10.50req/s] [内存消耗：4,408.69kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001993s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000431s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_column',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001312s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_column.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ D:\phpstudy_pro\WWW\code\create\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\view\mw_column\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'searchStaticList',
+  6 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000281s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001157s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001435s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.001860s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000485s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:30:31+08:00 ] 127.0.0.1 GET create.com/assets/css/bootstrap.css.map
+[运行时间：0.153966s] [吞吐率：6.49req/s] [内存消耗：2,178.58kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002654s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000741s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:30:31+08:00 ] 127.0.0.1 GET create.com/assets/css/fastadmin.css.map
+[运行时间：0.168565s] [吞吐率：5.93req/s] [内存消耗：2,178.58kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003474s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000754s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:30:31+08:00 ] 127.0.0.1 GET create.com/assets/css/skins/skin-black-green.css.map
+[运行时间：0.171928s] [吞吐率：5.82req/s] [内存消耗：2,178.35kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.018820s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003066s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:30:31+08:00 ] 127.0.0.1 GET create.com/assets/css/backend.css.map
+[运行时间：0.194614s] [吞吐率：5.14req/s] [内存消耗：2,178.52kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005020s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001315s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:30:31+08:00 ] 127.0.0.1 GET create.com/admin/ajax/lang?callback=define&controllername=mw_column&lang=zh-cn&v=1622183431&v=1622183431
+[运行时间：0.085762s] [吞吐率：11.66req/s] [内存消耗：3,552.94kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001949s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001345s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'mw_column',
+  'lang' => 'zh-cn',
+  'v' => '1622183431',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002463s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_column.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000270s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:30:32+08:00 ] 127.0.0.1 POST create.com/admin/mw_module/index
+[运行时间：0.202114s] [吞吐率：4.95req/s] [内存消耗：4,430.05kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002329s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000541s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_module',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://create.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '154',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '1',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '1',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001432s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_module.php
+[ info ] [ RUN ] app\admin\controller\MwModule->index[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\MwModule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.008285s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001032s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001212s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.048512s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_mw_module` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` WHERE  `id` IN (1) ORDER BY FIELD(`id`, '1') LIMIT 0,999999 [ RunTime:0.000229s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:36:00+08:00 ] 127.0.0.1 GET create.com/admin/mw_column/edit/ids/1?dialog=1
+[运行时间：0.096548s] [吞吐率：10.36req/s] [内存消耗：4,409.63kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001695s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000843s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_column',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001465s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_column.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ D:\phpstudy_pro\WWW\code\create\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\view\mw_column\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'searchStaticList',
+  6 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000334s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001264s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.001878s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000725s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:36:00+08:00 ] 127.0.0.1 GET create.com/assets/css/backend.css.map
+[运行时间：0.132782s] [吞吐率：7.53req/s] [内存消耗：2,178.52kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006904s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000628s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:36:00+08:00 ] 127.0.0.1 GET create.com/assets/css/fastadmin.css.map
+[运行时间：0.124858s] [吞吐率：8.01req/s] [内存消耗：2,178.58kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004821s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000743s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:36:00+08:00 ] 127.0.0.1 GET create.com/assets/css/bootstrap.css.map
+[运行时间：0.129965s] [吞吐率：7.69req/s] [内存消耗：2,178.58kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003241s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000632s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:36:00+08:00 ] 127.0.0.1 GET create.com/assets/css/skins/skin-black-green.css.map
+[运行时间：0.149136s] [吞吐率：6.71req/s] [内存消耗：2,178.35kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004809s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000644s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:36:00+08:00 ] 127.0.0.1 GET create.com/admin/ajax/lang?callback=define&controllername=mw_column&lang=zh-cn&v=1622183760&v=1622183760
+[运行时间：0.093339s] [吞吐率：10.71req/s] [内存消耗：3,552.94kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001784s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000436s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'mw_column',
+  'lang' => 'zh-cn',
+  'v' => '1622183760',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001753s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_column.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000280s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:36:01+08:00 ] 127.0.0.1 POST create.com/admin/mw_module/index
+[运行时间：0.126058s] [吞吐率：7.93req/s] [内存消耗：4,430.05kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003759s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000474s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_module',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://create.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '154',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '1',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '1',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002108s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_module.php
+[ info ] [ RUN ] app\admin\controller\MwModule->index[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\MwModule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000997s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001209s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001825s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001562s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_mw_module` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` WHERE  `id` IN (1) ORDER BY FIELD(`id`, '1') LIMIT 0,999999 [ RunTime:0.024507s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:40:43+08:00 ] 127.0.0.1 POST create.com/admin/mw_column/edit/ids/1?dialog=1
+[运行时间：0.292015s] [吞吐率：3.42req/s] [内存消耗：4,416.86kb] [文件加载：145]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005140s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000875s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_column',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://create.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '773',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'row' => 
+  array (
+    'module_id' => '1',
+    'name' => 'name',
+    'description' => '房间名称',
+    'input_type' => 'varchar',
+    'output_type' => 'string',
+    'is_quick_search' => '0',
+    'is_multiple' => '0',
+    'prompt' => '提示信息',
+    'placeholder' => '请输入。。。。。',
+    'link' => '{“json”:"/user/list"}',
+    'search_rule' => '{"multiple":"true","rule":"=","type":"select","value":"0"}',
+    'search_static' => '0',
+    'option' => '{"url":"[]","data":"[{"key":1,"value":"开"}]"}',
+    'create_time' => '2021-05-21 20:01:52',
+  ),
+  'ids' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006754s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_column.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ D:\phpstudy_pro\WWW\code\create\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.075892s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001228s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001059s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.010738s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.012790s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] UPDATE `fa_mw_column`  SET `is_quick_search`=0,`is_multiple`=0,`search_rule`='{\"multiple\":\"true\",\"rule\":\"=\",\"type\":\"select\",\"value\":\"0\"}'  WHERE  `id` = 1 [ RunTime:0.030212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.014746s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('字段 / 编辑' , '{\"dialog\":\"1\",\"row\":{\"module_id\":\"1\",\"name\":\"name\",\"description\":\"房间名称\",\"input_type\":\"varchar\",\"output_type\":\"string\",\"is_quick_search\":\"0\",\"is_multiple\":\"0\",\"prompt\":\"提示信息\",\"placeholder\":\"请输入。。。。。\",\"link\":\"{“json”:&quot;\\/user\\/list&quot;}\",\"search_rule\":\"{&quot;multiple&quot;:&quot;true&quot;,&quot;rule&quot;:&quot;=&quot;,&quot;type&quot;:&quot;select&quot;,&quot;value&quot;:&quot;0&quot;}\",\"search_static\":\"0\",\"option\":\"{&quot;url&quot;:&quot;[]&quot;,&quot;data&quot;:&quot;[{&quot;key&quot;:1,&quot;value&quot;:&quot;开&quot;}]&quot;}\",\"create_time\":\"2021-05-21 20:01:52\"},\"ids\":\"1\"}' , '/admin/mw_column/edit/ids/1?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36' , '127.0.0.1' , 1622184043) [ RunTime:0.059507s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:40:43+08:00 ] 127.0.0.1 GET create.com/admin/mw_column/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1622101512579
+[运行时间：0.134613s] [吞吐率：7.43req/s] [内存消耗：4,546.30kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002139s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000434s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_column',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1622101512579',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001295s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_column.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\phpstudy_pro\WWW\code\create\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000273s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001274s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.005605s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.004640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005560s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.013941s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.017515s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_mw_column` LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:40:45+08:00 ] 127.0.0.1 GET create.com/admin/mw_column/edit/ids/1?dialog=1
+[运行时间：0.099290s] [吞吐率：10.07req/s] [内存消耗：4,409.64kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001702s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000427s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_column',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001300s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_column.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ D:\phpstudy_pro\WWW\code\create\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\view\mw_column\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'searchStaticList',
+  6 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000585s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001129s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.002177s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[ 2021-05-28T14:40:45+08:00 ] 127.0.0.1 GET create.com/assets/css/skins/skin-black-green.css.map
+[运行时间：0.049582s] [吞吐率：20.17req/s] [内存消耗：2,178.35kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001494s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000358s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:40:45+08:00 ] 127.0.0.1 GET create.com/assets/css/fastadmin.css.map
+[运行时间：0.121856s] [吞吐率：8.21req/s] [内存消耗：2,178.58kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004897s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000694s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:40:45+08:00 ] 127.0.0.1 GET create.com/assets/css/bootstrap.css.map
+[运行时间：0.134156s] [吞吐率：7.45req/s] [内存消耗：2,178.58kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004315s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000696s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:40:45+08:00 ] 127.0.0.1 GET create.com/assets/css/backend.css.map
+[运行时间：0.162439s] [吞吐率：6.16req/s] [内存消耗：2,178.52kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006056s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001793s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:40:46+08:00 ] 127.0.0.1 GET create.com/admin/ajax/lang?callback=define&controllername=mw_column&lang=zh-cn&v=1622184045&v=1622184045
+[运行时间：0.050032s] [吞吐率：19.99req/s] [内存消耗：3,552.94kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001211s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000258s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'mw_column',
+  'lang' => 'zh-cn',
+  'v' => '1622184045',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001548s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_column.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000159s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-28T14:40:46+08:00 ] 127.0.0.1 POST create.com/admin/mw_module/index
+[运行时间：0.096226s] [吞吐率：10.39req/s] [内存消耗：4,430.05kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004300s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000362s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'mw_module',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=881dede3-390e-4d9b-a269-ee085f4f5609; PHPSESSID=miomg9forfodot9gegguenstcm; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://create.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '154',
+  'connection' => 'keep-alive',
+  'host' => 'create.com',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '1',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '1',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001754s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/mw_module.php
+[ info ] [ RUN ] app\admin\controller\MwModule->index[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\MwModule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000849s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001109s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001065s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001724s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_mw_module` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` WHERE  `id` IN (1) ORDER BY FIELD(`id`, '1') LIMIT 0,999999 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2021-05-28T17:47:12+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.288133s] [吞吐率：3.47req/s] [内存消耗：4,481.82kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000076s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002007s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001102s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => '23e1e36b-2ca7-46c6-adf7-1c701d4a18d2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003035s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001454s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.001988s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.001177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.001350s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000575s ]
+[ error ] [0]类型错误: Argument 1 passed to think\db\Connection::bindValue() must be of the type array, string given, called in D:\phpstudy_pro\WWW\code\create\thinkphp\library\think\db\Connection.php on line 373[D:\phpstudy_pro\WWW\code\create\thinkphp\library\think\db\Connection.php:508]
+---------------------------------------------------------------
+[ 2021-05-28T17:47:27+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.210910s] [吞吐率：4.74req/s] [内存消耗：4,481.32kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000078s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001756s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001433s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => '280e2a13-d868-4026-8f8d-71d8d85bde72',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002887s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038139s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001101s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.003919s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000697s ]
+[ error ] [0]类型错误: Argument 1 passed to think\db\Connection::bindValue() must be of the type array, string given, called in D:\phpstudy_pro\WWW\code\create\thinkphp\library\think\db\Connection.php on line 373[D:\phpstudy_pro\WWW\code\create\thinkphp\library\think\db\Connection.php:508]
+---------------------------------------------------------------
+[ 2021-05-28T17:48:03+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.255479s] [吞吐率：3.91req/s] [内存消耗：4,485.77kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000099s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003665s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001138s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => 'e0b20ce5-e200-470c-8607-ecb2c6b8613c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003006s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002729s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.002023s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001722s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.036872s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000441s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fastadmin.rs_chip' doesn't exist[D:\phpstudy_pro\WWW\code\create\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2021-05-28T17:48:14+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.150920s] [吞吐率：6.63req/s] [内存消耗：4,454.58kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000096s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002183s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000537s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => '096ca67b-2902-4252-9b1c-090e204e0403',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002219s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009965s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.009195s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.001827s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2021-05-28T17:49:10+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.191420s] [吞吐率：5.22req/s] [内存消耗：4,462.04kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000094s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005103s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000734s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => '746faf5c-37c9-48bf-a9df-1e322eb3b885',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001878s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045567s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.002221s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.016995s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.001924s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000631s ]
+---------------------------------------------------------------
+[ 2021-05-28T17:52:05+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.202078s] [吞吐率：4.95req/s] [内存消耗：4,462.45kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001991s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000575s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => '2b11196e-858f-483c-96c0-fb1bf7a63c6f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003700s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001563s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.063650s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.021225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.002940s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000869s ]
+---------------------------------------------------------------
+[ 2021-05-28T17:52:50+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.197483s] [吞吐率：5.06req/s] [内存消耗：4,462.73kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002770s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000460s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => 'b839ff10-61d2-4400-9eba-a5900eb1a28d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001839s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001279s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.043774s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.003625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.011697s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[ 2021-05-28T17:53:35+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.167021s] [吞吐率：5.99req/s] [内存消耗：4,464.63kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002399s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000773s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => 'fede1040-b4ed-4dbd-8dfc-896929b4e452',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002105s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001222s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.001325s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.030870s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.026438s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000537s ]
+---------------------------------------------------------------
+[ 2021-05-28T17:54:14+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.161927s] [吞吐率：6.18req/s] [内存消耗：4,464.63kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002982s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003503s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => '5a88bfff-0438-4b24-a340-b3612940ac65',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001925s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001741s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.035497s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.002117s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000604s ]
+---------------------------------------------------------------
+[ 2021-05-28T17:57:35+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.127890s] [吞吐率：7.82req/s] [内存消耗：4,464.63kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001859s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000445s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => 'f1ea7027-ca48-4692-98d7-be709158e403',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001778s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001227s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.001068s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000697s ]
+---------------------------------------------------------------
+[ 2021-05-28T17:59:27+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.171138s] [吞吐率：5.84req/s] [内存消耗：4,466.66kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003393s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.009060s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => '83145acc-a510-4f41-8c88-980e61557899',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002552s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001337s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.003966s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.002060s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2021-05-28T18:01:50+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.116618s] [吞吐率：8.57req/s] [内存消耗：4,466.66kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003055s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000718s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => 'b406b4f3-c4b2-4188-a560-df97e8b992a5',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002147s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001419s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.003417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.001496s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2021-05-28T18:03:40+08:00 ] 127.0.0.1 GET create.com/admin/index/middleware
+[运行时间：0.190648s] [吞吐率：5.25req/s] [内存消耗：4,455.11kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002050s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000472s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'middleware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3jd5cttjg0q14h3mpg9n9u82hq',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'create.com',
+  'postman-token' => '61e3463c-8a74-435d-92f2-5ddfc08f0436',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001457s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\code\create\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->middleware[ D:\phpstudy_pro\WWW\code\create\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001172s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_connection` [ RunTime:0.026285s ]
+[ sql ] [ SQL ] SELECT `c`.* FROM `fa_mw_connection` `c` LEFT JOIN `fa_mw_module` `m` ON `m`.`connection_id`=`c`.`id` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.005301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_module` [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_module` `m` LEFT JOIN `fa_mw_project` `p` ON `m`.`project_id`=`p`.`id` WHERE  `p`.`code` = 'P001'  AND `m`.`name` = 'room' LIMIT 1 [ RunTime:0.011798s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_mw_column` [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_mw_column` WHERE  `module_id` = 1  AND `search_static` = '1' [ RunTime:0.000466s ]
