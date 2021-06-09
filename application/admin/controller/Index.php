@@ -150,8 +150,8 @@ class Index extends Backend
      */
     public function middleware()
     {
-        $prohect = 'P001';
-        $module = 'room';
+        $prohect = $this->request->param('prohect','');
+        $module = $this->request->param('module','');
         $data = [];
         //获取模块连接数据
         $connection_model = new \app\admin\model\MwConnection();
